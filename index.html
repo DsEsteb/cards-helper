@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body { padding-top: 50px; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Revisemos esas listas! =]</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="jumbotron">
+      <form action="/compare-lists" method="post">
+        <label for="list1">Primera lista:</label><br>
+        <input type="text" id="list1" name="list1" value="" style="width: 80%;"><br><br><br>
+        <label for="list2">Segunda lista:</label><br>
+        <input type="text" id="list2" name="list2" value="" style="width: 80%;"><br><br>
+        <input type="submit" value="Revisar">
+      </form> 
+    </div>
+  </div>
+    
+</body>
+</html>
